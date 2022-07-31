@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+.searchSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchedGamesList,.topDealsList{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.searchGame,.topDeal{
+  border: 1px solid red;
+}
+.textBox{
+  height: 30px;
+  width: 580px;
+  outline:none;
+  border: 1px solid grey;
+  padding:3px 10px;
+  text-align: center;
+  margin-bottom: 12px;;
+}
+.searchBtn{
+  height: 30px;
+  color:white;
+  background-color: #c471ed;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;;
+  cursor: pointer;
+}
+.searchGame{
+  height: auto;
+  margin: 10px;
+}
+.searchGame img{
+  height: 100px;
+  width: 170px;
+}
+.searchGame h1{
+  font-size: 14px;
+
+}
+.topDeal{
+  margin: 16px;
+  width: 300px;
+  height: auto;
+}
+.topDeal h1{
+  font-size: 18px;
+margin-bottom: 12px;
+}
+.normalPrice{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;;
+}
+.normalPrice p{
+margin: 0px 10px;
+}
+.topDeal img{
+  height: 100px;
+  width: 150px;
+}
